@@ -1,0 +1,9 @@
+[
+    {
+        "email":"yanivstern26@gmail.com",
+        "password": "yanivst",
+        "firstName":"Yaniv",
+        "lastName": "Stern",
+        "data":"app/data/yaniv-user.json"
+    }
+]

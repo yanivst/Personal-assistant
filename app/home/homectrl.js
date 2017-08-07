@@ -1,4 +1,4 @@
-perssonalAssistant.controller("homectrl.js", function ($scope) {
+perssonalAssistant.controller("homeCtrl", function ($scope) {
 
 
 });

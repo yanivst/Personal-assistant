@@ -1,5 +1,5 @@
 // Shared User Constructor
-recipeApp.factory("User", function(){
+personalassistant.factory("User", function(){
     function User(plainObject) {
         this.email = plainObject.email;
         this.password = plainObject.password;
@@ -12,7 +12,7 @@ recipeApp.factory("User", function(){
 });
 
 // Service that manges the active user
-recipeApp.factory("activeUser", function(User){
+personalassistant.factory("activeUser", function(User){
     var user = null;
 
     var isLoggedIn = function() {

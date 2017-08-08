@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--AngularJS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-animate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+    <!--Bootstrap -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <!--UI Bootstrap-->
+    <script src="https://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.5.0.js"></script>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <h1>New task</h1>
+    <div class="row">
+        <ul class="nav nav-tabs pull-left">
+          <li role="presentation" class="active"><a href="#"><i class="fa fa-list"></i> List</a></li>
+          <li role="presentation"><a href="#"><i class="fa fa-calendar"></i> Calendar</a></li>
+          <li role="presentation"><a href="#">Messages</a></li>
+        </ul>
+         <ul class="nav nav-pills pull-right">
+          <li role="presentation"><a href="#" class="dropdown-toggle" data-toggle="dropdown">New <span class="caret"></span></a></li>
+          <ul class="dropdown-menu" role="menu">
+            <li><a>test</a></li>
+        </ul>
+        </ul>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="">
+          <form class="form-horizontal" action="" method="post">
+          <fieldset>
+        
+    
+            <div class="form-group ">
+                <div class="col-md-2 col-md-offset-10">
+                     <select class="form-control col-md-4">
+                    <option>Task type</option>
+                </select>
+                </div>
+               
+            </div>
+            <div class="form-group">              
+              <div class="col-md-12">
+                <textarea class="form-control" id="message" name="message" placeholder="Type to Add new task" rows="1"></textarea>
+              </div>
+            </div>
+            <div class="form-group">
+            <div class="btn-group pull-right">
+              <button type="button" class="btn btn-default"><i class="fa fa-user-plus"></i> Client</button>
+              <button type="button" class="btn btn-default"><i class="fa fa-plus"></i> Service</button>
+              <button type="button" class="btn btn-default">Save</button>
+            </div>
+            </div>
+
+    
+            <!-- Form actions -->
+            <div class="form-group">
+              <div class="col-md-12 text-right">
+                <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+              </div>
+            </div>
+          </fieldset>
+          </form>
+        </div>
+      </div>
+	</div>
+    <div class="row">
+        <div class="col-sm-3">
+           <div class="form-group">
+               <input type="text" class="form-control" placeholder="Client name">
+           </div> 
+        </div>
+    </div>
+</div>
+
+  </body>
+
+</html>
